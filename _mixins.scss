@@ -1,0 +1,12 @@
+// mixins
+
+@mixin button($color) {
+	border-radius: 2px;
+	padding: 17px 30px;
+	background: $color;
+	border: none;
+	color: white;
+	font-size: 0.7rem;
+	text-transform:uppercase;
+	letter-spacing: 0.1rem;
+}
